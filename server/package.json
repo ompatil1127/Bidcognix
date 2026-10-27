@@ -1,0 +1,22 @@
+{
+  "name": "bidcognix-server",
+  "version": "2.0.0",
+  "description": "BidCognix Backend API & Tender Intelligence Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/seed.js",
+    "db:migrate": "node src/migrate.js",
+    "db:seed": "node src/migrate.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.23.1"
+  }
+}

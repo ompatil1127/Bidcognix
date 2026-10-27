@@ -1,0 +1,1326 @@
+{
+  "users": [
+    {
+      "id": "usr-gov-nhai",
+      "name": "Rajesh Sharma",
+      "email": "publisher@nhai.gov.in",
+      "password": "publisher123",
+      "role": "GOVERNMENT",
+      "organization_name": "National Highways & Infrastructure Authority (NHAI)",
+      "department": "Digital Infrastructure & Toll Operations",
+      "designation": "Chief Procurement Officer",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.014Z"
+    },
+    {
+      "id": "usr-gov-seci",
+      "name": "Priya Nambiar",
+      "email": "publisher@seci.gov.in",
+      "password": "publisher123",
+      "role": "GOVERNMENT",
+      "organization_name": "Solar Energy Corporation of India (SECI)",
+      "department": "Renewable Energy Procurement Division",
+      "designation": "Executive Director (Contracts)",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.015Z"
+    },
+    {
+      "id": "usr-gov-msrdc",
+      "name": "Sunil Deshmukh",
+      "email": "publisher@msrdc.gov.in",
+      "password": "publisher123",
+      "role": "GOVERNMENT",
+      "organization_name": "Maharashtra State Road Development Corp",
+      "department": "Coastal Highway Projects Division",
+      "designation": "Superintending Engineer",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.016Z"
+    },
+    {
+      "id": "usr-gov-nhai-alias",
+      "name": "Rajesh Sharma (NHAI)",
+      "email": "gov@nhai.gov.in",
+      "password": "password123",
+      "role": "GOVERNMENT",
+      "organization_name": "National Highways Authority (NHAI)",
+      "department": "Central Tendering Cell",
+      "designation": "Tender Officer",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.017Z"
+    },
+    {
+      "id": "usr-comp-apex",
+      "name": "Ananya Verma",
+      "email": "user@apextech.com",
+      "password": "user123",
+      "role": "COMPANY",
+      "organization_name": "Apex Infotech Solutions Pvt Ltd",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.018Z"
+    },
+    {
+      "id": "usr-comp-larsen",
+      "name": "Vikram Mehta",
+      "email": "user@larseninfra.com",
+      "password": "user123",
+      "role": "COMPANY",
+      "organization_name": "Larsen Infrastructure Works Ltd",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.018Z"
+    },
+    {
+      "id": "usr-comp-sunpower",
+      "name": "Rohan Kapoor",
+      "email": "user@sunpower.com",
+      "password": "user123",
+      "role": "COMPANY",
+      "organization_name": "SunPower Green Energy Pvt Ltd",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.019Z"
+    },
+    {
+      "id": "usr-comp-apex-alias",
+      "name": "Ananya Verma",
+      "email": "contact@apexinfotech.com",
+      "password": "password123",
+      "role": "COMPANY",
+      "organization_name": "Apex Infotech Solutions Pvt Ltd",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.019Z"
+    },
+    {
+      "id": "usr-admin-super",
+      "name": "Dr. Siddharth Rao",
+      "email": "admin@tendersphere.io",
+      "password": "adminpassword",
+      "role": "ADMIN",
+      "organization_name": "TenderSphere Global Platform",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-18T09:05:59.020Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "comp-1787043959020",
+      "user_id": "usr-comp-apex",
+      "company_name": "Apex Infotech Solutions Pvt Ltd",
+      "industry": "IT & Software Development",
+      "incorporation_year": 2017,
+      "experience_years": 7,
+      "annual_turnover": 150000000,
+      "turnover_formatted": "₹15.00 Cr",
+      "employee_count": 140,
+      "headquarters": "Bengaluru, Karnataka",
+      "gstin": "29ABCDE1234F1Z5",
+      "pan": "ABCDE1234F",
+      "certifications": [
+        "ISO 9001",
+        "CMMI Level 3",
+        "SOC 2",
+        "MeitY Empanelment"
+      ],
+      "technical_skills": [
+        "React",
+        "Node.js",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Cloud Hosting",
+        "GIS Mapping",
+        "REST API"
+      ],
+      "past_projects": [
+        {
+          "title": "State Transport Fleet GPS & Telemetry Cloud",
+          "client": "Karnataka State Road Transport Corp",
+          "value": 45000000,
+          "value_formatted": "₹4.50 Cr",
+          "year": 2024,
+          "completion_status": "Successfully Completed"
+        },
+        {
+          "title": "Smart City Citizen Grievance Redressal Portal",
+          "client": "Pune Smart City Development Corp",
+          "value": 32000000,
+          "value_formatted": "₹3.20 Cr",
+          "year": 2023,
+          "completion_status": "Successfully Completed"
+        }
+      ],
+      "financial_rating": "CRISIL SME-1 (High Financial Strength)",
+      "created_at": "2026-08-18T09:05:59.020Z"
+    },
+    {
+      "id": "comp-1787043959021",
+      "user_id": "usr-comp-larsen",
+      "company_name": "Larsen Infrastructure Works Ltd",
+      "industry": "Civil Construction & Infrastructure",
+      "incorporation_year": 2012,
+      "experience_years": 12,
+      "annual_turnover": 950000000,
+      "turnover_formatted": "₹95.00 Cr",
+      "employee_count": 850,
+      "headquarters": "Mumbai, Maharashtra",
+      "gstin": "27AABCL9876K1Z9",
+      "pan": "AABCL9876K",
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 45001",
+        "Class-I Civil License",
+        "LEED Certification"
+      ],
+      "technical_skills": [
+        "RCC Framed Structure",
+        "Asphalt Bitumen",
+        "Prestressed Concrete",
+        "Highway Engineering",
+        "Drainage Systems",
+        "Piling Works"
+      ],
+      "past_projects": [
+        {
+          "title": "4-Lane Elevated Bypass Highway Corridor",
+          "client": "Maharashtra State Road Development Corp",
+          "value": 380000000,
+          "value_formatted": "₹38.00 Cr",
+          "year": 2024,
+          "completion_status": "Successfully Completed"
+        }
+      ],
+      "financial_rating": "CARE AA- (Stable)",
+      "created_at": "2026-08-18T09:05:59.021Z"
+    },
+    {
+      "id": "comp-1787043959022",
+      "user_id": "usr-comp-sunpower",
+      "company_name": "SunPower Green Energy Pvt Ltd",
+      "industry": "Electrical & Solar Power",
+      "incorporation_year": 2018,
+      "experience_years": 6,
+      "annual_turnover": 450000000,
+      "turnover_formatted": "₹45.00 Cr",
+      "employee_count": 220,
+      "headquarters": "Jaipur, Rajasthan",
+      "gstin": "08AABCS5432E1Z8",
+      "pan": "AABCS5432E",
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "MNRE ALMM Approved"
+      ],
+      "technical_skills": [
+        "Tier 1 Solar Mono-Perc PV",
+        "Central Inverters & SCADA",
+        "BESS Battery Storage",
+        "33 kV Power Evacuation Line",
+        "Grid Synchronization"
+      ],
+      "past_projects": [
+        {
+          "title": "30 MW Solar PV Plant Rajasthan Phase-II",
+          "client": "Rajasthan Renewable Energy Corp",
+          "value": 190000000,
+          "value_formatted": "₹19.00 Cr",
+          "year": 2024,
+          "completion_status": "Successfully Completed"
+        }
+      ],
+      "financial_rating": "ICRA A- (Positive)",
+      "created_at": "2026-08-18T09:05:59.022Z"
+    }
+  ],
+  "tenders": [
+    {
+      "title": "fkahgiandkvjn",
+      "reference_no": "GOV/2026/132",
+      "organization_name": "National Highways & Infrastructure Authority (NHAI)",
+      "issuer_id": "usr-gov-nhai",
+      "category": "Energy",
+      "ai_predicted_category": "IT",
+      "ai_confidence": 86,
+      "category_distribution": {
+        "IT": 86,
+        "Construction": 8,
+        "Healthcare": 4,
+        "Manufacturing": 4
+      },
+      "budget": 120000000,
+      "budget_formatted": "₹12.00 Cr",
+      "currency": "INR",
+      "min_turnover": 60000000,
+      "min_turnover_formatted": "₹6.00 Cr",
+      "min_experience_years": 4,
+      "location": "New Delhi, India",
+      "source": "TenderSphere Portal",
+      "source_badge": "Direct Published",
+      "status": "ACTIVE",
+      "deadline": "2026-09-30",
+      "deadline_formatted": "28 Aug 2026, 5:00 PM",
+      "required_certifications": [
+        "ISO 9001",
+        "GST Registration"
+      ],
+      "technical_requirements": [
+        "Standard SLA Delivery",
+        "Quality Compliance"
+      ],
+      "required_documents": [
+        "GST Certificate",
+        "Company PAN Card",
+        "Bank Solvency",
+        "Audited Balance Sheets (3 Yrs)"
+      ],
+      "description": "F6556555fdjhiah  DHASFKVNDSKVJNAIFNK   kajhsdfkjnaskdfhiasuf  kahfhd,fhaiuhf,dnfiufd",
+      "emd_amount": 2400000,
+      "emd_formatted": "₹24.00 Lakh",
+      "id": "tnd-1787044518376-d78wp",
+      "created_at": "2026-08-18T09:15:18.376Z",
+      "views_count": 0,
+      "evaluation_count": 0
+    },
+    {
+      "id": "tnd-solar-seci-50mw",
+      "reference_no": "SECI/SOLAR/EPC/2026/18",
+      "title": "50 MW Ground Mounted Solar PV Plant & Battery Storage",
+      "organization_name": "Solar Energy Corporation of India (SECI)",
+      "issuer_id": "usr-gov-seci",
+      "category": "Energy",
+      "ai_predicted_category": "Energy",
+      "ai_confidence": 95,
+      "category_distribution": {
+        "Energy": 95,
+        "Infrastructure": 5
+      },
+      "budget": 310000000,
+      "budget_formatted": "₹31.00 Cr",
+      "currency": "INR",
+      "min_turnover": 180000000,
+      "min_turnover_formatted": "₹18.00 Cr",
+      "min_experience_years": 5,
+      "location": "Jodhpur, Rajasthan",
+      "source": "MNRE / SECI Portal",
+      "source_badge": "SECI Verified",
+      "status": "ACTIVE",
+      "deadline": "2026-09-20T17:00:00Z",
+      "deadline_formatted": "20 Sep 2026",
+      "required_certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "MNRE ALMM Approved"
+      ],
+      "technical_requirements": [
+        "Tier 1 Solar Mono-Perc PV Modules",
+        "Central Inverters & SCADA Monitoring",
+        "Battery Energy Storage System",
+        "33 kV Power Evacuation Line"
+      ],
+      "required_documents": [
+        "ALMM Module Compliance Certificate",
+        "CA Turnover Certificate with UDIN",
+        "EMD Bank Guarantee (₹62 Lakhs)",
+        "Past Solar Commissioning Proofs"
+      ],
+      "description": "Comprehensive design, equipment supply, civil erection, grid synchronization, and 5-year maintenance of 50 MW solar photovoltaic plant with battery storage.",
+      "emd_amount": 6200000,
+      "emd_formatted": "₹62.00 Lakh",
+      "views_count": 0,
+      "evaluation_count": 0,
+      "created_at": "2026-08-10T11:00:00Z"
+    },
+    {
+      "id": "tnd-civil-mumbai-expressway",
+      "reference_no": "MSRDC/EPC/2026/412",
+      "title": "6-Lane Coastal Highway Corridor & Viaduct Construction",
+      "organization_name": "Maharashtra State Road Development Corp",
+      "issuer_id": "usr-gov-msrdc",
+      "category": "Infrastructure",
+      "ai_predicted_category": "Infrastructure",
+      "ai_confidence": 96,
+      "category_distribution": {
+        "Infrastructure": 96,
+        "Supply & Manufacturing": 4
+      },
+      "budget": 840000000,
+      "budget_formatted": "₹84.00 Cr",
+      "currency": "INR",
+      "min_turnover": 500000000,
+      "min_turnover_formatted": "₹50.00 Cr",
+      "min_experience_years": 10,
+      "location": "Mumbai - Raigad, Maharashtra",
+      "source": "MSRDC State eProcure",
+      "source_badge": "State Govt",
+      "status": "ACTIVE",
+      "deadline": "2026-09-15T18:00:00Z",
+      "deadline_formatted": "15 Sep 2026",
+      "required_certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "Class-I Civil License"
+      ],
+      "technical_requirements": [
+        "RCC Concrete Framed Structure",
+        "Prestressed Concrete Viaducts",
+        "Asphalt Bitumen Heavy Grade",
+        "Storm Water Drainage System"
+      ],
+      "required_documents": [
+        "Class-I Civil Contractor License",
+        "GST & PAN Credentials",
+        "Audited Balance Sheets (5 Years)",
+        "Bank Solvency Certificate (₹25 Cr)",
+        "EMD Bank Guarantee (₹1.68 Cr)"
+      ],
+      "description": "Turnkey civil contract for design, engineering, procurement and construction of coastal expressway section including 3 elevated viaducts and 2 major bridges.",
+      "emd_amount": 16800000,
+      "emd_formatted": "₹1.68 Cr",
+      "views_count": 0,
+      "evaluation_count": 0,
+      "created_at": "2026-08-05T14:30:00Z"
+    },
+    {
+      "id": "tnd-it-nhai-089",
+      "reference_no": "NHAI/TECH/2026/089",
+      "title": "Design, Development & Cloud Hosting of Highway Traffic Analytics & Toll Management System",
+      "organization_name": "National Highways & Infrastructure Authority (NHAI)",
+      "issuer_id": "usr-gov-nhai",
+      "category": "Technology",
+      "ai_predicted_category": "Technology",
+      "ai_confidence": 94,
+      "category_distribution": {
+        "Technology": 94,
+        "Infrastructure": 3,
+        "Supply & Manufacturing": 3
+      },
+      "budget": 145000000,
+      "budget_formatted": "₹14.50 Cr",
+      "currency": "INR",
+      "min_turnover": 80000000,
+      "min_turnover_formatted": "₹8.00 Cr",
+      "min_experience_years": 5,
+      "location": "New Delhi, India",
+      "source": "Central e-Procurement Portal (GeM)",
+      "source_badge": "GeM Verified",
+      "status": "ACTIVE",
+      "deadline": "2026-08-28T17:00:00Z",
+      "deadline_formatted": "28 Aug 2026",
+      "required_certifications": [
+        "ISO 9001",
+        "ISO 27001",
+        "CMMI Level 3"
+      ],
+      "technical_requirements": [
+        "React & Node.js",
+        "Cloud Hosting & PostgreSQL",
+        "99.9% Uptime SLA",
+        "ANPR API Integration"
+      ],
+      "required_documents": [
+        "GST Registration Certificate",
+        "Company PAN Card",
+        "Audited Balance Sheets (3 Years)",
+        "Bank Solvency Certificate (₹5 Cr)",
+        "EMD Bank Guarantee (₹29 Lakhs)"
+      ],
+      "description": "NHAI invites comprehensive bids from established IT & Cloud software vendors for developing, deploying and maintaining a national-scale real-time highway traffic analytics and automated toll reconciliation cloud engine.",
+      "emd_amount": 2900000,
+      "emd_formatted": "₹29.00 Lakh",
+      "views_count": 1,
+      "evaluation_count": 1,
+      "created_at": "2026-08-01T10:00:00Z"
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "bm-1790744179723",
+      "company_id": "usr-comp-apex",
+      "tender_id": "tnd-it-nhai-089",
+      "stage": "BID_SUBMITTED",
+      "notes": "Documentation package verified and bid submitted",
+      "created_at": "2026-09-30T04:56:19.723Z",
+      "updated_at": "2026-09-30T05:16:27.888Z"
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "eval-1790745387909",
+      "tender_id": "tnd-it-nhai-089",
+      "company_id": "comp-1787043959020",
+      "match_score": 82,
+      "competitiveness": 76,
+      "eligibility": "Partially Eligible",
+      "timestamp": "2026-09-30T05:16:27.909Z"
+    }
+  ],
+  "analytics_events": [
+    {
+      "event": "view",
+      "tender_id": "tnd-it-nhai-089",
+      "user_id": "usr-comp-apex",
+      "timestamp": "2026-09-30T05:16:27.894Z"
+    }
+  ],
+  "documentation_workflows": [
+    {
+      "id": "wf-tnd-it-nhai-089-usr-comp-apex",
+      "tender_id": "tnd-it-nhai-089",
+      "company_id": "usr-comp-apex",
+      "current_stage": 6,
+      "stage_1_tender_docs": [
+        {
+          "id": "doc-tender-rfp",
+          "filename": "NHAI_TECH_2026_089_Official_RFP.pdf",
+          "original_name": "Design, Development & Cloud Hosting of H_RFP_Specs.pdf",
+          "url": "/uploads/NHAI_TECH_2026_089_RFP.pdf",
+          "size": 2450000,
+          "uploaded_at": "2026-08-01T10:00:00Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "tdoc-1790745339616",
+          "filename": "1790745339602-NHAI_Official_Tender_Notice_Addendum_1.pdf",
+          "original_name": "NHAI_Official_Tender_Notice_Addendum_1.pdf",
+          "url": "/uploads/1790745339602-NHAI_Official_Tender_Notice_Addendum_1.pdf",
+          "size": 80,
+          "mime_type": "application/pdf",
+          "uploaded_at": "2026-09-30T05:15:39.616Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "tdoc-1790745387797",
+          "filename": "1790745387796-NHAI_Official_Tender_Notice_Addendum_1.pdf",
+          "original_name": "NHAI_Official_Tender_Notice_Addendum_1.pdf",
+          "url": "/uploads/1790745387796-NHAI_Official_Tender_Notice_Addendum_1.pdf",
+          "size": 80,
+          "mime_type": "application/pdf",
+          "uploaded_at": "2026-09-30T05:16:27.797Z",
+          "status": "UPLOADED"
+        }
+      ],
+      "stage_2_analysis": {
+        "category": "IT",
+        "ai_confidence": 72,
+        "budget": 145000000,
+        "budget_formatted": "₹14.50 Cr",
+        "min_turnover": 87000000,
+        "min_turnover_formatted": "₹8.70 Cr",
+        "min_experience_years": 5,
+        "deadline": "2026-10-14T17:00:00Z",
+        "required_certifications": [
+          "ISO 9001",
+          "ISO 27001"
+        ],
+        "technical_requirements": [
+          "Design & Cloud Hosting of Highway Traffic Analytics & Toll Management System"
+        ],
+        "required_documents": [
+          {
+            "id": "req-1",
+            "title": "GST Registration Certificate",
+            "category": "Statutory",
+            "mandatory": true
+          },
+          {
+            "id": "req-2",
+            "title": "PAN Card Copy",
+            "category": "Statutory",
+            "mandatory": true
+          },
+          {
+            "id": "req-3",
+            "title": "Audited Balance Sheets (Last 3 Financial Years)",
+            "category": "Financial",
+            "mandatory": true
+          },
+          {
+            "id": "req-4",
+            "title": "Turnover CA Certificate with UDIN",
+            "category": "Financial",
+            "mandatory": true
+          },
+          {
+            "id": "req-5",
+            "title": "Bank Solvency Certificate",
+            "category": "Financial",
+            "mandatory": true
+          },
+          {
+            "id": "req-6",
+            "title": "Earnest Money Deposit (EMD) / Bid Security Declaration",
+            "category": "Security",
+            "mandatory": true
+          },
+          {
+            "id": "req-7",
+            "title": "Non-Blacklisting Undertaking / Affidavit",
+            "category": "Technical",
+            "mandatory": true
+          },
+          {
+            "id": "req-8",
+            "title": "Past Performance & Client Completion Certificates",
+            "category": "Technical",
+            "mandatory": true
+          },
+          {
+            "id": "req-9",
+            "title": "Power of Attorney for Authorized Signatory",
+            "category": "Technical",
+            "mandatory": true
+          },
+          {
+            "id": "req-10",
+            "title": "Technical Proposal & Compliance Matrix",
+            "category": "Technical",
+            "mandatory": true
+          }
+        ],
+        "raw_text_snippet": "Design & Cloud Hosting of Highway Traffic Analytics & Toll Management System. Estimated Budget Rs. 14.50 Cr. Minimum turnover requirement Rs. 8.00 Cr. Minimum 5 years experience in IT software. Certifications: ISO 9001, ISO 27001. Deadline 28 Aug 2026....",
+        "analyzed_at": "2026-09-30T05:16:27.811Z"
+      },
+      "stage_3_verification": {
+        "is_verified": true,
+        "verified_at": "2026-09-30T05:16:27.816Z",
+        "items": [
+          {
+            "id": "v-budget",
+            "key": "budget",
+            "label": "Estimated Contract Value",
+            "value": "₹14.50 Cr",
+            "status": "verified",
+            "notes": "Verified by compliance officer"
+          },
+          {
+            "id": "v-turnover",
+            "key": "min_turnover",
+            "label": "Minimum Annual Turnover",
+            "value": "₹8.00 Cr",
+            "status": "verified",
+            "notes": "Checked CA audited requirements"
+          },
+          {
+            "id": "v-exp",
+            "key": "min_experience_years",
+            "label": "Minimum Experience",
+            "value": "5 Years",
+            "status": "verified",
+            "notes": "Confirmed track record requirements"
+          }
+        ],
+        "user_notes": "All core clauses audited and verified for submission."
+      },
+      "stage_4_company_docs": [
+        {
+          "id": "cdoc-vault-1",
+          "req_doc_id": "req-1",
+          "category": "Statutory",
+          "filename": "Apex_Infotech_GST_Registration_Certificate.pdf",
+          "original_name": "Apex_Infotech_GST_Registration_Certificate.pdf",
+          "url": "/uploads/Apex_Infotech_GST_Registration_Certificate.pdf",
+          "size": 480200,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-2",
+          "req_doc_id": "req-2",
+          "category": "Statutory",
+          "filename": "Apex_Infotech_PAN_Card_Attested.pdf",
+          "original_name": "Apex_Infotech_PAN_Card_Attested.pdf",
+          "url": "/uploads/Apex_Infotech_PAN_Card_Attested.pdf",
+          "size": 215400,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-3",
+          "req_doc_id": "req-3",
+          "category": "Financial",
+          "filename": "Audited_Balance_Sheets_FY23_FY25.pdf",
+          "original_name": "Audited_Balance_Sheets_FY23_FY25.pdf",
+          "url": "/uploads/Audited_Balance_Sheets_FY23_FY25.pdf",
+          "size": 3410500,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-4",
+          "req_doc_id": "req-4",
+          "category": "Financial",
+          "filename": "CA_Turnover_Certificate_UDIN_Verified.pdf",
+          "original_name": "CA_Turnover_Certificate_UDIN_Verified.pdf",
+          "url": "/uploads/CA_Turnover_Certificate_UDIN_Verified.pdf",
+          "size": 890100,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-5",
+          "req_doc_id": "req-5",
+          "category": "Financial",
+          "filename": "HDFC_Bank_Solvency_Certificate_Rs10Cr.pdf",
+          "original_name": "HDFC_Bank_Solvency_Certificate_Rs10Cr.pdf",
+          "url": "/uploads/HDFC_Bank_Solvency_Certificate_Rs10Cr.pdf",
+          "size": 620400,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-6",
+          "req_doc_id": "req-6",
+          "category": "Security",
+          "filename": "SBI_EMD_Bank_Guarantee_Guarantee_Slip.pdf",
+          "original_name": "SBI_EMD_Bank_Guarantee_Guarantee_Slip.pdf",
+          "url": "/uploads/SBI_EMD_Bank_Guarantee_Guarantee_Slip.pdf",
+          "size": 1102000,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-7",
+          "req_doc_id": "req-7",
+          "category": "Technical",
+          "filename": "Technical_Proposal_Compliance_Matrix_V2.pdf",
+          "original_name": "Technical_Proposal_Compliance_Matrix_V2.pdf",
+          "url": "/uploads/Technical_Proposal_Compliance_Matrix_V2.pdf",
+          "size": 5820000,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-8",
+          "req_doc_id": "req-8",
+          "category": "Technical",
+          "filename": "Apex_Infotech_GST_Registration_Certificate.pdf",
+          "original_name": "Apex_Infotech_GST_Registration_Certificate.pdf",
+          "url": "/uploads/Apex_Infotech_GST_Registration_Certificate.pdf",
+          "size": 480200,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-9",
+          "req_doc_id": "req-9",
+          "category": "Technical",
+          "filename": "Apex_Infotech_PAN_Card_Attested.pdf",
+          "original_name": "Apex_Infotech_PAN_Card_Attested.pdf",
+          "url": "/uploads/Apex_Infotech_PAN_Card_Attested.pdf",
+          "size": 215400,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "cdoc-vault-10",
+          "req_doc_id": "req-10",
+          "category": "Technical",
+          "filename": "Audited_Balance_Sheets_FY23_FY25.pdf",
+          "original_name": "Audited_Balance_Sheets_FY23_FY25.pdf",
+          "url": "/uploads/Audited_Balance_Sheets_FY23_FY25.pdf",
+          "size": 3410500,
+          "uploaded_at": "2026-09-30T05:16:27.877Z",
+          "status": "UPLOADED"
+        }
+      ],
+      "stage_5_validation": {
+        "readiness_score": 100,
+        "can_submit": true,
+        "overall_status": "READY_TO_SUBMIT",
+        "summary": {
+          "total": 10,
+          "valid": 10,
+          "missing": 0,
+          "incomplete": 0,
+          "mismatched": 0
+        },
+        "items": [
+          {
+            "req_doc_id": "req-1",
+            "title": "GST Registration Certificate",
+            "category": "Statutory",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-1",
+              "original_name": "Apex_Infotech_GST_Registration_Certificate.pdf",
+              "url": "/uploads/Apex_Infotech_GST_Registration_Certificate.pdf",
+              "size": 480200,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Statutory registration credentials confirmed with verified GSTIN/PAN profile."
+          },
+          {
+            "req_doc_id": "req-2",
+            "title": "PAN Card Copy",
+            "category": "Statutory",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-1",
+              "original_name": "Apex_Infotech_GST_Registration_Certificate.pdf",
+              "url": "/uploads/Apex_Infotech_GST_Registration_Certificate.pdf",
+              "size": 480200,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Statutory registration credentials confirmed with verified GSTIN/PAN profile."
+          },
+          {
+            "req_doc_id": "req-3",
+            "title": "Audited Balance Sheets (Last 3 Financial Years)",
+            "category": "Financial",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-3",
+              "original_name": "Audited_Balance_Sheets_FY23_FY25.pdf",
+              "url": "/uploads/Audited_Balance_Sheets_FY23_FY25.pdf",
+              "size": 3410500,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "CA certified financial proof verified. Turnover satisfies mandated requirement."
+          },
+          {
+            "req_doc_id": "req-4",
+            "title": "Turnover CA Certificate with UDIN",
+            "category": "Financial",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-1",
+              "original_name": "Apex_Infotech_GST_Registration_Certificate.pdf",
+              "url": "/uploads/Apex_Infotech_GST_Registration_Certificate.pdf",
+              "size": 480200,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "CA certified financial proof verified. Turnover satisfies mandated requirement."
+          },
+          {
+            "req_doc_id": "req-5",
+            "title": "Bank Solvency Certificate",
+            "category": "Financial",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-1",
+              "original_name": "Apex_Infotech_GST_Registration_Certificate.pdf",
+              "url": "/uploads/Apex_Infotech_GST_Registration_Certificate.pdf",
+              "size": 480200,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Bank guarantee / solvency letter formatted to mandated public tender standard."
+          },
+          {
+            "req_doc_id": "req-6",
+            "title": "Earnest Money Deposit (EMD) / Bid Security Declaration",
+            "category": "Security",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-6",
+              "original_name": "SBI_EMD_Bank_Guarantee_Guarantee_Slip.pdf",
+              "url": "/uploads/SBI_EMD_Bank_Guarantee_Guarantee_Slip.pdf",
+              "size": 1102000,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Bank guarantee / solvency letter formatted to mandated public tender standard."
+          },
+          {
+            "req_doc_id": "req-7",
+            "title": "Non-Blacklisting Undertaking / Affidavit",
+            "category": "Technical",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-7",
+              "original_name": "Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "url": "/uploads/Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "size": 5820000,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Document verified and accepted for tender submission."
+          },
+          {
+            "req_doc_id": "req-8",
+            "title": "Past Performance & Client Completion Certificates",
+            "category": "Technical",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-7",
+              "original_name": "Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "url": "/uploads/Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "size": 5820000,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Document verified and accepted for tender submission."
+          },
+          {
+            "req_doc_id": "req-9",
+            "title": "Power of Attorney for Authorized Signatory",
+            "category": "Technical",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-7",
+              "original_name": "Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "url": "/uploads/Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "size": 5820000,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Document verified and accepted for tender submission."
+          },
+          {
+            "req_doc_id": "req-10",
+            "title": "Technical Proposal & Compliance Matrix",
+            "category": "Technical",
+            "mandatory": true,
+            "status": "VALID",
+            "badge": "Verified",
+            "color": "green",
+            "uploaded_file": {
+              "id": "cdoc-vault-7",
+              "original_name": "Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "url": "/uploads/Technical_Proposal_Compliance_Matrix_V2.pdf",
+              "size": 5820000,
+              "uploaded_at": "2026-09-30T05:16:27.877Z"
+            },
+            "notes": "Technical compliance matrix and scope of work deliverables mapped to requirements."
+          }
+        ]
+      },
+      "stage_6_readiness": {
+        "readiness_score": 100,
+        "can_submit": true,
+        "overall_status": "READY_TO_SUBMIT",
+        "summary": {
+          "total": 10,
+          "valid": 10,
+          "missing": 0,
+          "incomplete": 0,
+          "mismatched": 0
+        },
+        "finalized": true,
+        "submitted_at": "2026-09-30T05:16:27.887Z",
+        "audit_ref": "TS-AUDIT-MUNNKGHB"
+      },
+      "updated_at": "2026-09-30T05:16:27.887Z",
+      "created_at": "2026-09-30T04:55:43.125Z"
+    },
+    {
+      "id": "wf-tnd-1787044518376-d78wp-usr-comp-apex",
+      "tender_id": "tnd-1787044518376-d78wp",
+      "company_id": "usr-comp-apex",
+      "current_stage": 1,
+      "stage_1_tender_docs": [
+        {
+          "id": "doc-tender-rfp",
+          "filename": "GOV_2026_132_Official_RFP.pdf",
+          "original_name": "fkahgiandkvjn_RFP_Specs.pdf",
+          "url": "/uploads/GOV_2026_132_RFP.pdf",
+          "size": 2450000,
+          "uploaded_at": "2026-08-18T09:15:18.376Z",
+          "status": "UPLOADED"
+        }
+      ],
+      "stage_2_analysis": {
+        "category": "Energy",
+        "ai_confidence": 86,
+        "budget": 120000000,
+        "budget_formatted": "₹12.00 Cr",
+        "min_turnover": 60000000,
+        "min_turnover_formatted": "₹6.00 Cr",
+        "min_experience_years": 4,
+        "deadline": "2026-09-30",
+        "required_certifications": [
+          "ISO 9001",
+          "GST Registration"
+        ],
+        "technical_requirements": [
+          "Standard SLA Delivery",
+          "Quality Compliance"
+        ],
+        "required_documents": [
+          {
+            "id": "req-1",
+            "title": "GST Certificate",
+            "category": "Statutory",
+            "mandatory": true
+          },
+          {
+            "id": "req-2",
+            "title": "Company PAN Card",
+            "category": "Statutory",
+            "mandatory": true
+          },
+          {
+            "id": "req-3",
+            "title": "Bank Solvency",
+            "category": "Financial",
+            "mandatory": true
+          },
+          {
+            "id": "req-4",
+            "title": "Audited Balance Sheets (3 Yrs)",
+            "category": "Financial",
+            "mandatory": true
+          }
+        ],
+        "analyzed_at": "2026-08-18T09:15:18.376Z"
+      },
+      "stage_3_verification": {
+        "is_verified": true,
+        "verified_at": "2026-09-30T08:55:06.437Z",
+        "items": [
+          {
+            "id": "v-budget",
+            "key": "budget",
+            "label": "Estimated Contract Value",
+            "value": "₹12.00 Cr",
+            "status": "verified",
+            "notes": "Ceiling budget verified from official notice"
+          },
+          {
+            "id": "v-turnover",
+            "key": "min_turnover",
+            "label": "Minimum Annual Turnover",
+            "value": "₹6.00 Cr",
+            "status": "verified",
+            "notes": "Mandated average annual turnover over past 3 financial years"
+          },
+          {
+            "id": "v-exp",
+            "key": "min_experience_years",
+            "label": "Minimum Experience",
+            "value": "4 Years",
+            "status": "verified",
+            "notes": "Years in commercial execution of similar projects"
+          },
+          {
+            "id": "v-deadline",
+            "key": "deadline",
+            "label": "Submission Cutoff Date",
+            "value": "28 Aug 2026, 5:00 PM",
+            "status": "verified",
+            "notes": "Strict portal submission closing deadline"
+          },
+          {
+            "id": "v-certs",
+            "key": "certifications",
+            "label": "Mandatory Certifications",
+            "value": "ISO 9001, GST Registration",
+            "status": "verified",
+            "notes": "Accredited quality & security certificates"
+          }
+        ],
+        "user_notes": "Requirements verified against official RFP specification."
+      },
+      "stage_4_company_docs": [],
+      "stage_5_validation": null,
+      "stage_6_readiness": {
+        "readiness_score": 0,
+        "can_submit": false,
+        "overall_status": "INCOMPLETE",
+        "summary": {
+          "total": 4,
+          "valid": 0,
+          "missing": 4,
+          "incomplete": 0,
+          "mismatched": 0
+        }
+      },
+      "updated_at": "2026-09-30T08:55:06.437Z",
+      "created_at": "2026-09-30T08:55:06.437Z"
+    },
+    {
+      "id": "wf-tnd-solar-seci-50mw-usr-comp-apex",
+      "tender_id": "tnd-solar-seci-50mw",
+      "company_id": "usr-comp-apex",
+      "current_stage": 1,
+      "stage_1_tender_docs": [
+        {
+          "id": "doc-tender-rfp",
+          "filename": "SECI_SOLAR_EPC_2026_18_Official_RFP.pdf",
+          "original_name": "50 MW Ground Mounted Solar PV Plant & Ba_RFP_Specs.pdf",
+          "url": "/uploads/SECI_SOLAR_EPC_2026_18_RFP.pdf",
+          "size": 2450000,
+          "uploaded_at": "2026-08-10T11:00:00Z",
+          "status": "UPLOADED"
+        },
+        {
+          "id": "tdoc-1790758601657",
+          "filename": "1790758601652-Om_Patil__Resume.pdf",
+          "original_name": "Om_Patil__Resume.pdf",
+          "url": "/uploads/1790758601652-Om_Patil__Resume.pdf",
+          "size": 244578,
+          "mime_type": "application/pdf",
+          "uploaded_at": "2026-09-30T08:56:41.657Z",
+          "status": "UPLOADED"
+        }
+      ],
+      "stage_2_analysis": {
+        "category": "Energy",
+        "ai_confidence": 95,
+        "budget": 310000000,
+        "budget_formatted": "₹31.00 Cr",
+        "min_turnover": 180000000,
+        "min_turnover_formatted": "₹18.00 Cr",
+        "min_experience_years": 5,
+        "deadline": "2026-09-20T17:00:00Z",
+        "required_certifications": [
+          "ISO 9001",
+          "ISO 14001",
+          "MNRE ALMM Approved"
+        ],
+        "technical_requirements": [
+          "Tier 1 Solar Mono-Perc PV Modules",
+          "Central Inverters & SCADA Monitoring",
+          "Battery Energy Storage System",
+          "33 kV Power Evacuation Line"
+        ],
+        "required_documents": [
+          {
+            "id": "req-1",
+            "title": "ALMM Module Compliance Certificate",
+            "category": "Technical",
+            "mandatory": true
+          },
+          {
+            "id": "req-2",
+            "title": "CA Turnover Certificate with UDIN",
+            "category": "Financial",
+            "mandatory": true
+          },
+          {
+            "id": "req-3",
+            "title": "EMD Bank Guarantee (₹62 Lakhs)",
+            "category": "Security",
+            "mandatory": true
+          },
+          {
+            "id": "req-4",
+            "title": "Past Solar Commissioning Proofs",
+            "category": "Technical",
+            "mandatory": true
+          }
+        ],
+        "analyzed_at": "2026-08-10T11:00:00Z"
+      },
+      "stage_3_verification": {
+        "is_verified": true,
+        "verified_at": "2026-09-30T08:56:19.763Z",
+        "items": [
+          {
+            "id": "v-budget",
+            "key": "budget",
+            "label": "Estimated Contract Value",
+            "value": "₹31.00 Cr",
+            "status": "verified",
+            "notes": "Ceiling budget verified from official notice"
+          },
+          {
+            "id": "v-turnover",
+            "key": "min_turnover",
+            "label": "Minimum Annual Turnover",
+            "value": "₹18.00 Cr",
+            "status": "verified",
+            "notes": "Mandated average annual turnover over past 3 financial years"
+          },
+          {
+            "id": "v-exp",
+            "key": "min_experience_years",
+            "label": "Minimum Experience",
+            "value": "5 Years",
+            "status": "verified",
+            "notes": "Years in commercial execution of similar projects"
+          },
+          {
+            "id": "v-deadline",
+            "key": "deadline",
+            "label": "Submission Cutoff Date",
+            "value": "20 Sep 2026",
+            "status": "verified",
+            "notes": "Strict portal submission closing deadline"
+          },
+          {
+            "id": "v-certs",
+            "key": "certifications",
+            "label": "Mandatory Certifications",
+            "value": "ISO 9001, ISO 14001, MNRE ALMM Approved",
+            "status": "verified",
+            "notes": "Accredited quality & security certificates"
+          }
+        ],
+        "user_notes": "Requirements verified against official RFP specification."
+      },
+      "stage_4_company_docs": [],
+      "stage_5_validation": null,
+      "stage_6_readiness": {
+        "readiness_score": 0,
+        "can_submit": false,
+        "overall_status": "INCOMPLETE",
+        "summary": {
+          "total": 4,
+          "valid": 0,
+          "missing": 4,
+          "incomplete": 0,
+          "mismatched": 0
+        }
+      },
+      "updated_at": "2026-09-30T08:56:41.657Z",
+      "created_at": "2026-09-30T08:56:19.763Z"
+    },
+    {
+      "id": "wf-tnd-1787044518376-d78wp-usr-gov-nhai",
+      "tender_id": "tnd-1787044518376-d78wp",
+      "company_id": "usr-gov-nhai",
+      "current_stage": 1,
+      "stage_1_tender_docs": [
+        {
+          "id": "doc-tender-rfp",
+          "filename": "GOV_2026_132_Official_RFP.pdf",
+          "original_name": "fkahgiandkvjn_RFP_Specs.pdf",
+          "url": "/uploads/GOV_2026_132_RFP.pdf",
+          "size": 2450000,
+          "uploaded_at": "2026-08-18T09:15:18.376Z",
+          "status": "UPLOADED"
+        }
+      ],
+      "stage_2_analysis": {
+        "category": "Energy",
+        "ai_confidence": 86,
+        "budget": 120000000,
+        "budget_formatted": "₹12.00 Cr",
+        "min_turnover": 60000000,
+        "min_turnover_formatted": "₹6.00 Cr",
+        "min_experience_years": 4,
+        "deadline": "2026-09-30",
+        "required_certifications": [
+          "ISO 9001",
+          "GST Registration"
+        ],
+        "technical_requirements": [
+          "Standard SLA Delivery",
+          "Quality Compliance"
+        ],
+        "required_documents": [
+          {
+            "id": "req-1",
+            "title": "GST Certificate",
+            "category": "Statutory",
+            "mandatory": true
+          },
+          {
+            "id": "req-2",
+            "title": "Company PAN Card",
+            "category": "Statutory",
+            "mandatory": true
+          },
+          {
+            "id": "req-3",
+            "title": "Bank Solvency",
+            "category": "Financial",
+            "mandatory": true
+          },
+          {
+            "id": "req-4",
+            "title": "Audited Balance Sheets (3 Yrs)",
+            "category": "Financial",
+            "mandatory": true
+          }
+        ],
+        "analyzed_at": "2026-08-18T09:15:18.376Z"
+      },
+      "stage_3_verification": {
+        "is_verified": true,
+        "verified_at": "2026-10-01T09:26:06.059Z",
+        "items": [
+          {
+            "id": "v-budget",
+            "key": "budget",
+            "label": "Estimated Contract Value",
+            "value": "₹12.00 Cr",
+            "status": "verified",
+            "notes": "Ceiling budget verified from official notice"
+          },
+          {
+            "id": "v-turnover",
+            "key": "min_turnover",
+            "label": "Minimum Annual Turnover",
+            "value": "₹6.00 Cr",
+            "status": "verified",
+            "notes": "Mandated average annual turnover over past 3 financial years"
+          },
+          {
+            "id": "v-exp",
+            "key": "min_experience_years",
+            "label": "Minimum Experience",
+            "value": "4 Years",
+            "status": "verified",
+            "notes": "Years in commercial execution of similar projects"
+          },
+          {
+            "id": "v-deadline",
+            "key": "deadline",
+            "label": "Submission Cutoff Date",
+            "value": "28 Aug 2026, 5:00 PM",
+            "status": "verified",
+            "notes": "Strict portal submission closing deadline"
+          },
+          {
+            "id": "v-certs",
+            "key": "certifications",
+            "label": "Mandatory Certifications",
+            "value": "ISO 9001, GST Registration",
+            "status": "verified",
+            "notes": "Accredited quality & security certificates"
+          }
+        ],
+        "user_notes": "Requirements verified against official RFP specification."
+      },
+      "stage_4_company_docs": [],
+      "stage_5_validation": null,
+      "stage_6_readiness": {
+        "readiness_score": 0,
+        "can_submit": false,
+        "overall_status": "INCOMPLETE",
+        "summary": {
+          "total": 4,
+          "valid": 0,
+          "missing": 4,
+          "incomplete": 0,
+          "mismatched": 0
+        }
+      },
+      "updated_at": "2026-10-01T09:26:06.059Z",
+      "created_at": "2026-10-01T09:26:06.059Z"
+    }
+  ]
+}
